@@ -27,7 +27,7 @@ The repository structure is as follows:
     │       thompson.jl -  Acquisition of Thompson samples
     │
     ├───Evaluation
-    │       eval.jl  Evaluation of the Thompson samples
+    │       eval.jl - Evaluation of the Thompson samples
     │       eval_prior.jl -  Evaluation of prior optimization samples
     │       exemplar_designs.jl -  Evaluation of exemplar designs
     │
