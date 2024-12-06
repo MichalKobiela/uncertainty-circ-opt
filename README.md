@@ -6,7 +6,7 @@ Toml files with environments are provided.
 
 Licence: CC-BY 4.0
 
-If you use the code in your project please cite our work:
+If find the code helpful, please cite our work:
 
 Kobiela, Michal, Diego A. Oyarzun, and Michael U. Gutmann. "Risk-averse optimization of genetic circuits under uncertainty." 
 
