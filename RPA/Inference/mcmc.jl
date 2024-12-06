@@ -2,7 +2,6 @@ using RecursiveArrayTools, Distributions, Plots, StatsPlots
 using Optimization, OptimizationPolyalgorithms, SciMLSensitivity
 using Zygote
 using Turing
-using StatsPlots
 using LinearAlgebra
 using Serialization
 using CSV, Tables
