@@ -2,7 +2,7 @@ Code for the Risk-averse optimization of genetic circuits under uncertainty (htt
 
 Synthetic biology aims to engineer biological systems with specified functions. This requires navigating an extensive design space, which is challenging to achieve with wet lab experiments alone. To expedite the design process, mathematical modelling is typically employed to predict circuit function in silico ahead of implementation, which when coupled with computational optimization can be used to automatically identify promising designs. However, circuit models are inherently inaccurate which can result in sub-optimal or non-functional in vivo performance. To mitigate this issue, here we propose to combine Bayesian inference, Thompson sampling, and risk management to find optimal circuit designs. Our approach employs data from non-functional designs to estimate the distribution of the model parameters and then employs risk-averse optimization to select design parameters that are expected to perform well given parameter uncertainty and biomolecular noise. We illustrate the approach by designing robust adaptation circuits and genetic oscillators with a prescribed frequency. The proposed approach provides a novel methodology for the design of robust genetic circuitry.
 
-Toml files with environments are provided. The data can be found on Zenodo (https://zenodo.org/records/13355081).
+Toml files with Julia environments are provided. The data can be found on Zenodo (https://zenodo.org/records/13355081).
 
 Licence: CC-BY 4.0
 
