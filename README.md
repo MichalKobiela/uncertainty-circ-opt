@@ -66,7 +66,7 @@ The repository structure is as follows:
 ```
 .
 ├── README.md
-├── Repressilator - Study 2.1 Repressilator
+├── Repressilator - Study 2.3 Repressilator
 │   ├── Design
 │   │   ├── amplitude_match.jl         # Check whether the loss function is sensitive to amplitude
 │   │   ├── optimization_prior.jl      # Acquisition of prior optimization samples
