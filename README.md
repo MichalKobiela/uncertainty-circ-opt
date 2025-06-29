@@ -107,7 +107,7 @@ The repository structure is as follows:
 │   │   └── thompson.jl                # Thompson sampling for real data
 │   ├── Evaluation
 │   │   ├── evaluation.jl              # Evaluation scripts
-│   │   └── posterior_predictive.jl    # Posterior predictive evaluation
+│   │   └── posterior_predictive.jl    # Posterior predictive evaluation of exemplar designs and held-out observations
 │   ├── Inference
 │   │   ├── inference.jl               # Inference from real data
 │   │   ├── data.csv                   # Observed data
@@ -123,13 +123,13 @@ The repository structure is as follows:
     │   └── thompson.jl                # Thompson sampling
     ├── Eval
     │   ├── eval.jl                    # Evaluation scripts
-    │   └── examplar.jl                # Exemplar evaluation
+    │   └── examplar.jl                # Evaluation of exemplar designs
     ├── Inference
     │   └── smc.jl                     # SMC ABC inference
     ├── Model
     │   ├── reprissilator_host.jl      # Host-aware repressilator model
-    │   ├── warmUp1.jl                 # Warm-up simulations
-    │   └── warmUp2.jl                 # Warm-up simulations
+    │   ├── warmUp1.jl                 # Calculate initialization for the warmUp2.jl
+    │   └── warmUp2.jl                 # Calculate initialization for the repressialtor_host.jl
     ├── Project.toml
     └── Manifest.toml
 ```
